@@ -1,12 +1,12 @@
 class Acdislinux < Formula
   desc "ACDIS PKCS11 Linux"
   homepage "https://www.austriacard.at"
-  url "https://github.com/Austriacard/ACDIS-PKCS11/releases/download/1.0.0/linux-1.0.0.tar.gz"
-  sha256 "ee2608295433fd93610eb6443f6ae3c6eb38a498e6f9efe0f7582b3c4dd7601d"
+  url "https://github.com/Austriacard/ACDIS-PKCS11/releases/download/1.1.0/linux-1.1.0.tar.gz"
+  sha256 "d2757bb52304e62bf46ae47e59c48be406d0c3048a733652c279a7f37650d973"
 
   bottle do
-    root_url "https://github.com/Austriacard/homebrew-acdislinux/releases/download/acdislinux-1.0.0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "56822c1854c58452aabf59614b38ebeb2afcf3129052d08babd6ba0d1a084373"
+    root_url "https://github.com/Austriacard/homebrew-acdislinux/releases/download/acdislinux-1.1.0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c762c313dc834f6ba8d3980239a8563b3e33986ebe40c0ad0238ffdcdce221f2"
   end
   on_linux do
     def install
