@@ -1,13 +1,8 @@
 class Acdisp11manager < Formula
  desc "ACDIS PKCS11 Manager Linux"
  homepage "https://www.austriacard.at"
- url "https://github.com/Austriacard/ACDIS-PKCS11/releases/download/1.4.0/linux-p11manager-1.4.0.tar.gz"
- sha256 "86b3ebc4b4881932fbb8137c98d564aade29548b00e6054fce3bde332f960146"
-
-  bottle do
-    root_url "https://github.com/Austriacard/homebrew-acdislinux/releases/download/acdisp11manager-1.4.0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ddfe9ca6b18f527aa6350ec829f934363f64dd9a7dd0f3f341761151b2d8976d"
-  end
+ url "https://github.com/Austriacard/ACDIS-PKCS11/releases/download/1.5.0/linux-p11manager-1.5.0.tar.gz"
+ sha256 "a18b8a8da2fe5a86b7315f706e9225f32754234eb33fb7c453b7a85c3af35676"
  depends_on "acdislinux"
  on_linux do
  def install
