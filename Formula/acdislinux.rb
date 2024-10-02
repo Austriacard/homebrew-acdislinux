@@ -2,7 +2,7 @@ class Acdislinux < Formula
   desc "ACDIS PKCS11 Linux"
   homepage "https://www.austriacard.at"
   url "https://github.com/Austriacard/ACDIS-PKCS11/releases/download/1.7.0/linux-p11module-1.7.0.tar.gz"
-  sha256 "39103598927b7f98a4307454803c5c42c789779bbf74539f3a7a03906e549a43"
+  sha256 "ffdf9de5f52af4833caf0105cd06c1b0f831080d53d2847ec4ad3cc58a68de5f"
   on_linux do
     def install
       prefix.install Dir["*"]
